@@ -28,7 +28,7 @@ body{
 a:hover{
     color: #FA5F55;}
     .container{
-      background-image: url('45034830-B376-4FCF-B3E0-D17CCC18D8F6.jpeg');
+    
     
       background-size: cover;}
 
@@ -42,12 +42,18 @@ a:hover{
 
     h1 {
       text-align: center;
+      color: yellow;
+      font: bold;
+      text-decoration: underline 2px;
+      text-align: center;
+      font-family: 'raleway';
     }
 
     form {
       background-color: #fff;
-      padding: 30px;
-      border-radius: 4px;
+      padding: 40px;
+      border-radius: 25px;
+      
     }
 
     input[type="text"],
@@ -62,17 +68,18 @@ a:hover{
     }
 
     input[type="submit"] {
-      background-color: #4CAF50;
+      background-color: #13110f;
       color: white;
       padding: 12px 20px;
       border: none;
       border-radius: 4px;
       cursor: pointer;
-      font-size: 16px;
+      font-size: 15px;
+    
     }
 
     input[type="submit"]:hover {
-      background-color: #45a049;
+      background-color: #FA5F55;
     }
 
     .contact-info {
@@ -92,7 +99,21 @@ a:hover{
 
     .social-links a {
       margin: 0 10px;
-      color: #555;
+      color: #fdfdfd;
       text-decoration: none;
-      font-size: 24px;
+      font-size: 50px;
+    }
+    .insta:hover{
+      color: hotpink;
+    }
+    .face:hover{
+      color: #0000ff ;}
+    .snap:hover{
+        color: yellow;
+      }
+    .twit:hover{
+      color: #1DA1F2;
+    }
+    .pin:hover{
+      color: red;
     }
