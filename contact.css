@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@700&display=swap');
+body{
+    background-color: black;
+    background-image: url('45034830-B376-4FCF-B3E0-D17CCC18D8F6.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.navbar{
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: flex-start;
+  align-content: center;
+  gap: 3vw; 
+  overflow: auto;
+  font-size: 2vw;
+  flex-direction: row;
+  padding-top: 2vw;
+  color: white;
+  font-family: 'raleway';}
+  a{
+    text-decoration: none;
+    color: white;
+    position: relative;
+    padding: 0 10px;
+}
+a:hover{
+    color: #FA5F55;}
+    .container{
+      background-image: url('45034830-B376-4FCF-B3E0-D17CCC18D8F6.jpeg');
+    
+      background-size: cover;}
+
+     
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    form {
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 4px;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      resize: vertical;
+    }
+
+    input[type="submit"] {
+      background-color: #4CAF50;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    input[type="submit"]:hover {
+      background-color: #45a049;
+    }
+
+    .contact-info {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .contact-info p {
+      margin-bottom: 5px;
+    }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
+
+    .social-links a {
+      margin: 0 10px;
+      color: #555;
+      text-decoration: none;
+      font-size: 24px;
+    }
