@@ -90,12 +90,18 @@ a:hover{
     .contact-info p {
       margin-bottom: 5px;
     }
+
+    .social-links {
+      display: flex;
+      justify-content: center;
+      margin-top: 20px;
+    }
 .social-links a {
       margin: 0 10px;
       color: #fdfdfd;
       text-decoration: none;
       font-size: 30px;
-      
+      border: solid white ; padding: 10px; border-radius: 25px; background-color: #FA5F55; width: 80%;
     }
     .insta:hover{
         color: hotpink;
