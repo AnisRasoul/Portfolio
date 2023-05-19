@@ -99,45 +99,22 @@ a:hover{
     }
     .insta:hover{
         color: hotpink;
-        border: 1px solid hotpink;
-        background-color: #312b2b;
-        border-radius: 10px;
          transition: 0.3s;
-        padding: 1px;
-        padding-bottom: 0.1;
     }
     .face:hover{
       color: #0000ff ;
-      border: 1px solid #0000ff ;
-        background-color: #312b2b;
-        border-radius: 10px;
-         transition: 0.3s;
-        padding: 1px;
-        padding-bottom: 0.1; }
+        transition: 0.3s; 
+       }
     .snap:hover{
         color: yellow;
-        border: 1px solid yellow;
-        background-color: #312b2b;
-        border-radius: 10px;
          transition: 0.3s;
-        padding: 1px;
-        padding-bottom: 0.1;
+        
       }
     .twit:hover{
       color: #1DA1F2;
-      border: 1px solid #1DA1F2;
-        background-color: #312b2b;
-        border-radius: 10px;
          transition: 0.3s;
-        padding: 1px;
-        padding-bottom: 0.1;
     }
     .pin:hover{
       color: red;
-      border: 0.1px solid red;
-        background-color: #312b2b;
-        border-radius: 10px;
          transition: 0.3s;
-        padding: 1.5px;
-        padding-bottom: 0.1;
     }
