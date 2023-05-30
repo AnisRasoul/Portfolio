@@ -16,15 +16,12 @@
         
          </div>
 
-	<form action="url" method="post" autocomplete="on">
+	<form action="signup.php" method="post" autocomplete="on">
 		<h1>Register here</h1>
 		<label for="first-name">First Name:</label>
 		<input type="text" id="first-name" name="first-name" required>
 		<label for="last-name">Last Name:</label>
 		<input type="text" id="last-name" name="last-name" required>
-		<label for="Gender">Gender:</label> <br> 
-		<input type="radio"name="male" value="male" > Male 
-		<input type="radio"name="female" value="female" > female <br> <br>
 		<label for="age">Birthdate:</label>
 		<input type="date" id="Birthdate" name="birthdate" required>
 		<label for="phone">Phone Number:</label>
@@ -33,6 +30,13 @@
 		<input type="email" id="email" name="email" required>
 		<label for="password">Password:</label>
 		<input type="password" id="password" name="password" required> <br>
+		<textarea style="width: 80%;
+		padding: 9.2px;
+		border: 1px solid #cccccc17;
+		border-radius: 5px;
+		margin-bottom: 20px;
+		font-size: 20px;
+		color: #55555513;" name="message" placeholder="Comment here" rows="5" required></textarea> <br> <br>
 		<input type="submit" value="Sign Up">
 	</form>
 </body>
