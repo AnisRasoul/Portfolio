@@ -34,82 +34,24 @@ a:hover{
 
    
 
-  a.insta{
-      
-    color: white;
-    font-size: 18px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-  }
-  .insta:hover{
-    color: hotpink;
-  }
-  a.face{
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-  }
-  .face:hover{
-    color: #0000ff ;
-  }
-  a.ytb{
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-  }
-  .ytb:hover{
-    color: red;
-  }
-  .homepage{
-    font: bold;
-    font-family: "raleway";
-    font-size: 13px;
-    position: absolute;
-    left: 0px;
-    top: 40px;
-    
-  }
   h1{
-    color: yellow;
+    color: rgba(238, 238, 238, 0.982);
     font: bold;
-    text-decoration: underline 2px;
+  
     text-align: center;
   }
-  .snap{
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-  }
-  .snap:hover{
-    color: yellow;
-  }
-  .pin{
-    color: white;
-    font-size: 22px;
-    font-family: 'Raleway', sans-serif;
-    text-decoration: none;
-    top: 5px;
-    
-  }
-  .pin:hover{
-    color: red;
-  }
-  .contact{
-    color: yellow;
-    text-decoration: underline
+  h1:hover{
+    color: #FA5F55;
   }
   .aboutme{
     
     font-family: 'raleway';
-    
     padding: 20px;
-    width: 80%;
-    margin-left: 150px;
+    width: 90%;
+    margin-left: 50px;
     margin-top:  60px;
-    border: 6px white solid;
+    border: 6px rgba(255, 255, 255, 0.085); solid;
+    background-color: rgba(255, 255, 255, 0.085);
     border-radius: 50px;
 
   }
@@ -135,6 +77,46 @@ a:hover{
     color: #FA5F55;
     text-decoration: underline;
     font-size: 18px;
+  }
+  .row{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+  
+  .card-02{
+    background: #f5f5f531;
+    position: relative;
+    flex: 1;
+    max-width: 660px;
+    height: 500px;
+    margin: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    padding: 50px;
+    
+  }
+  
+  
+  
+  @media (max-width:800px){
+    .card-01{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-02{
+      flex: 100%;
+      max-width: 600px;
+    }
+  
+    .card-03{
+      flex: 100%;
+      max-width: 600px;
+    }
   }
  
   
